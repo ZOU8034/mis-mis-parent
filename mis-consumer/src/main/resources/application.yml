@@ -1,0 +1,10 @@
+server:
+  port: 9999   #http://localhost:8888
+spring:
+  cloude:
+    zookeeper:
+      connect-string: localhost:2181
+
+logging:
+  level:
+    com.yc: debug    #  None, fatal,error,warning,info,debug,all
